@@ -2,6 +2,5 @@
     "map_name": "HMS Cromwell",
     "map_path": "map_files/HMS_Cromwell",
     "map_file": "HMS_Cromwell.dmm",
-    "webmap_url": "Almayer",
-    "traits": [{"Marine Main Ship": true}]
+    "webmap_url": "Almayer"
 }

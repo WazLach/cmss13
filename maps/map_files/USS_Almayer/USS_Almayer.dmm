@@ -30765,10 +30765,6 @@
 /turf/open/floor/almayer/plate,
 /area/almayer/maint/hull/upper/p_bow)
 "iVP" = (
-/obj/structure/sign/safety/restrictedarea{
-	pixel_x = -17;
-	pixel_y = 7
-	},
 /obj/structure/machinery/cm_vending/sorted/marine_food,
 /turf/open/floor/almayer/red/southwest,
 /area/almayer/shipboard/brig/processing)
@@ -55618,6 +55614,14 @@
 	},
 /turf/open/floor/almayer/research/containment/floor2/north,
 /area/almayer/medical/containment/cell)
+"tfM" = (
+/obj/structure/pipes/standard/simple/hidden/supply,
+/obj/structure/prop/vehicles/tank/twe{
+	layer = 5.1;
+	pixel_y = -6
+	},
+/turf/open/floor/almayer,
+/area/almayer/hallways/lower/vehiclehangar)
 "tfQ" = (
 /obj/structure/machinery/light/small,
 /turf/open/floor/plating/plating_catwalk,
@@ -82340,7 +82344,7 @@ ghF
 ghF
 jak
 jdC
-jdC
+tfM
 jdC
 jdC
 wiQ
