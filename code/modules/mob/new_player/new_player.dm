@@ -52,10 +52,20 @@
 		output += "<b>Be Xenomorph:</b> [(client.prefs && (client.prefs.get_job_priority(JOB_XENOMORPH))) ? "Yes" : "No"]"
 
 	else
-		output += "<a href='byond://?src=\ref[src];lobby_choice=manifest'>View the Crew Manifest</A><br><br>"
-		output += "<a href='byond://?src=\ref[src];lobby_choice=hiveleaders'>View Hive Leaders</A><br><br>"
-		output += "<p><a href='byond://?src=\ref[src];lobby_choice=late_join'>Join the USCM!</A></p>"
-		output += "<p><a href='byond://?src=\ref[src];lobby_choice=late_join_xeno'>Join the Hive!</A></p>"
+		if(SSticker.mode.name == "Faction Clash") // Check if round is a HvH round
+			// A note about this: This assumes the other faction is UPP
+			// In the future, making this compatible with any faction
+			// would be ideal, but this is beyond my scope.
+			output += "<a href='byond://?src=\ref[src];lobby_choice=manifest'>View the USCM Crew Manifest</A><br><br>" // Don't show Alien joins
+			output += "<p><a href='byond://?src=\ref[src];lobby_choice=late_join'>Join the USCM!</A></p>" // Must add UPP/other team roles
+
+			output += "<a href='byond://?src=\ref[src];lobby_choice=manifest_upp'>View the UPP Crew Manifest</A><br><br>" // Don't show Alien joins
+			output += "<p><a href='byond://?src=\ref[src];lobby_choice=late_join_upp'>Join the UPP!</A></p>"
+		else
+			output += "<a href='byond://?src=\ref[src];lobby_choice=manifest'>View the Crew Manifest</A><br><br>"
+			output += "<a href='byond://?src=\ref[src];lobby_choice=hiveleaders'>View Hive Leaders</A><br><br>"
+			output += "<p><a href='byond://?src=\ref[src];lobby_choice=late_join'>Join the USCM!</A></p>"
+			output += "<p><a href='byond://?src=\ref[src];lobby_choice=late_join_xeno'>Join the Hive!</A></p>"
 		if(SSticker.mode.flags_round_type & MODE_PREDATOR)
 			if(SSticker.mode.check_predator_late_join(src,0)) output += "<p><a href='byond://?src=\ref[src];lobby_choice=late_join_pred'>Join the Hunt!</A></p>"
 
@@ -170,6 +180,23 @@
 
 			LateChoices()
 
+		if("late_join_upp")
+
+			if(SSticker.current_state != GAME_STATE_PLAYING || !SSticker.mode)
+				to_chat(src, SPAN_WARNING("The round is either not ready, or has already finished..."))
+				return
+
+			if(SSticker.mode.flags_round_type & MODE_NO_LATEJOIN)
+				to_chat(src, SPAN_WARNING("Sorry, you cannot late join during [SSticker.mode.name]. You have to start at the beginning of the round."))
+				return
+
+			if(client.player_data?.playtime_loaded && (client.get_total_human_playtime() < CONFIG_GET(number/notify_new_player_age)) && !length(client.prefs.completed_tutorials))
+				if(tgui_alert(src, "You have little playtime and haven't completed any tutorials. Would you like to go to the tutorial menu?", "Tutorial", list("Yes", "No")) == "Yes")
+					tutorial_menu()
+					return
+
+			LateChoices()
+
 		if("late_join_xeno")
 			if(SSticker.current_state != GAME_STATE_PLAYING || !SSticker.mode)
 				to_chat(src, SPAN_WARNING("The round is either not ready, or has already finished..."))
@@ -196,6 +223,9 @@
 					new_player_panel()
 
 		if("manifest")
+			ViewManifest()
+
+		if("manifest_upp")
 			ViewManifest()
 
 		if("hiveleaders")
