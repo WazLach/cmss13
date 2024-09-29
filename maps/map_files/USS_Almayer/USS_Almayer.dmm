@@ -2788,7 +2788,7 @@
 	pixel_x = 15;
 	pixel_y = 32
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "atH" = (
 /turf/open/floor/almayer/plate,
@@ -7123,7 +7123,7 @@
 /obj/structure/machinery/firealarm{
 	pixel_y = 28
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "aUC" = (
 /obj/structure/machinery/light{
@@ -7250,7 +7250,7 @@
 	dir = 8;
 	name = "ship-grade camera"
 	},
-/turf/open/floor/almayer/green/east,
+/turf/open/floor/almayer/medgreen/east,
 /area/almayer/hallways/upper/fore_hallway)
 "aVL" = (
 /obj/structure/machinery/camera/autoname/almayer{
@@ -7441,7 +7441,7 @@
 /turf/open/floor/almayer/test_floor4,
 /area/almayer/living/offices)
 "aWM" = (
-/turf/open/floor/almayer/greencorner/east,
+/turf/open/floor/almayer/medgreencorner/east,
 /area/almayer/hallways/upper/fore_hallway)
 "aWT" = (
 /obj/structure/machinery/door/airlock/almayer/maint{
@@ -8592,7 +8592,7 @@
 	pixel_x = 8;
 	pixel_y = 32
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "bgO" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -12916,7 +12916,7 @@
 /obj/structure/sign/safety/maint{
 	pixel_x = 32
 	},
-/turf/open/floor/almayer/green/east,
+/turf/open/floor/almayer/medgreen/east,
 /area/almayer/hallways/upper/fore_hallway)
 "bRP" = (
 /obj/structure/machinery/body_scanconsole,
@@ -13511,7 +13511,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/turf/open/floor/almayer/green/east,
+/turf/open/floor/almayer/medgreen/east,
 /area/almayer/hallways/upper/fore_hallway)
 "bXe" = (
 /turf/open/floor/plating/plating_catwalk,
@@ -13989,7 +13989,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "NW-out"
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "ccG" = (
 /obj/structure/largecrate/random/secure,
@@ -16780,7 +16780,7 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/almayer/green/northeast,
+/turf/open/floor/almayer/medgreen/northeast,
 /area/almayer/hallways/upper/fore_hallway)
 "cXz" = (
 /obj/structure/surface/table/almayer,
@@ -19994,7 +19994,7 @@
 /obj/structure/machinery/light{
 	dir = 4
 	},
-/turf/open/floor/almayer/green/east,
+/turf/open/floor/almayer/medgreen/east,
 /area/almayer/hallways/upper/fore_hallway)
 "eqb" = (
 /obj/structure/surface/table/almayer,
@@ -20230,7 +20230,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/living/gym)
 "esQ" = (
-/turf/open/floor/almayer/green/northwest,
+/turf/open/floor/almayer/medgreen/northwest,
 /area/almayer/hallways/upper/fore_hallway)
 "esT" = (
 /turf/open/floor/almayer/uscm/directional/northwest,
@@ -20379,7 +20379,7 @@
 /obj/structure/machinery/status_display{
 	pixel_y = 30
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "evR" = (
 /obj/structure/surface/table/almayer,
@@ -24268,7 +24268,7 @@
 /obj/structure/pipes/standard/simple/hidden/supply{
 	dir = 4
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "gjm" = (
 /obj/effect/decal/warning_stripes{
@@ -24510,7 +24510,7 @@
 	name = "General Listening Channel";
 	pixel_y = 28
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "gpI" = (
 /obj/structure/disposalpipe/segment,
@@ -24602,7 +24602,7 @@
 /turf/open/floor/almayer/plate,
 /area/almayer/maint/hull/upper/u_a_p)
 "gre" = (
-/turf/open/floor/almayer/greencorner/north,
+/turf/open/floor/almayer/medgreencorner/north,
 /area/almayer/hallways/upper/fore_hallway)
 "grv" = (
 /obj/effect/decal/warning_stripes{
@@ -24818,7 +24818,7 @@
 /turf/open/floor/almayer/silver,
 /area/almayer/command/cic)
 "gvu" = (
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "gvK" = (
 /obj/structure/machinery/light,
@@ -25207,7 +25207,7 @@
 /obj/structure/sign/safety/stairs{
 	pixel_x = -15
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "gDp" = (
 /obj/structure/machinery/light{
@@ -25475,7 +25475,7 @@
 /obj/structure/sign/safety/maint{
 	pixel_x = -17
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "gJE" = (
 /obj/structure/machinery/door_control{
@@ -25761,7 +25761,7 @@
 /obj/structure/sign/safety/stairs{
 	pixel_x = -17
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "gOk" = (
 /obj/structure/largecrate/guns/merc{
@@ -27372,7 +27372,7 @@
 /obj/structure/machinery/cm_vending/sorted/medical/wall_med{
 	pixel_y = 25
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "hwC" = (
 /obj/structure/flora/pottedplant{
@@ -30104,7 +30104,7 @@
 /turf/open/floor/almayer/cargo,
 /area/almayer/squads/alpha)
 "iKy" = (
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "iKD" = (
 /obj/structure/surface/table/almayer,
@@ -32001,7 +32001,7 @@
 /obj/structure/sign/safety/stairs{
 	pixel_x = -17
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "jss" = (
 /obj/structure/bed/chair/comfy{
@@ -33501,7 +33501,7 @@
 /area/almayer/maint/hull/upper/s_bow)
 "kaj" = (
 /obj/structure/machinery/light,
-/turf/open/floor/almayer/green,
+/turf/open/floor/almayer/medgreen/south,
 /area/almayer/hallways/upper/fore_hallway)
 "kak" = (
 /obj/structure/disposalpipe/segment,
@@ -34069,14 +34069,14 @@
 /obj/structure/sign/safety/maint{
 	pixel_x = -17
 	},
-/turf/open/floor/almayer/green/southwest,
+/turf/open/floor/almayer/medgreen/southwest,
 /area/almayer/hallways/upper/fore_hallway)
 "knb" = (
 /obj/effect/step_trigger/clone_cleaner,
 /obj/effect/decal/warning_stripes{
 	icon_state = "W"
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "kng" = (
 /obj/structure/machinery/light/small{
@@ -35415,7 +35415,7 @@
 /turf/open/floor/almayer/plate,
 /area/almayer/squads/req)
 "kPa" = (
-/turf/open/floor/almayer/greencorner/west,
+/turf/open/floor/almayer/medgreencorner/west,
 /area/almayer/hallways/upper/fore_hallway)
 "kPx" = (
 /obj/structure/surface/table/almayer,
@@ -36462,7 +36462,7 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/almayer/maint/upper/u_a_p)
 "llo" = (
-/turf/open/floor/almayer/green/east,
+/turf/open/floor/almayer/medgreen/east,
 /area/almayer/hallways/upper/fore_hallway)
 "llK" = (
 /obj/structure/platform_decoration{
@@ -37188,7 +37188,7 @@
 	icon_state = "W"
 	},
 /obj/effect/step_trigger/clone_cleaner,
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "lCm" = (
 /obj/structure/machinery/light/small{
@@ -37810,7 +37810,7 @@
 /turf/open/floor/almayer/silver/northwest,
 /area/almayer/command/securestorage)
 "lPY" = (
-/turf/open/floor/almayer/green/northeast,
+/turf/open/floor/almayer/medgreen/northeast,
 /area/almayer/hallways/upper/fore_hallway)
 "lQa" = (
 /obj/structure/machinery/light{
@@ -38092,7 +38092,7 @@
 /obj/structure/machinery/light{
 	dir = 1
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "lYg" = (
 /obj/structure/disposalpipe/segment,
@@ -41602,7 +41602,7 @@
 /area/almayer/hallways/lower/repair_bay)
 "nsr" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "nsH" = (
 /turf/open/floor/almayer/orange/southwest,
@@ -41865,7 +41865,7 @@
 /turf/open/floor/almayer/test_floor4,
 /area/almayer/living/briefing)
 "nyK" = (
-/turf/open/floor/almayer/greencorner,
+/turf/open/floor/almayer/medgreencorner,
 /area/almayer/hallways/upper/fore_hallway)
 "nyQ" = (
 /turf/open/floor/almayer,
@@ -44326,7 +44326,7 @@
 /obj/structure/sign/safety/distribution_pipes{
 	pixel_x = -17
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "oyC" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -46603,7 +46603,7 @@
 /obj/structure/sign/safety/distribution_pipes{
 	pixel_x = 32
 	},
-/turf/open/floor/almayer/green/east,
+/turf/open/floor/almayer/medgreen/east,
 /area/almayer/hallways/upper/fore_hallway)
 "pum" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -46869,7 +46869,7 @@
 	pixel_x = 8;
 	pixel_y = 32
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "pzG" = (
 /obj/docking_port/stationary/emergency_response/port1,
@@ -54567,7 +54567,7 @@
 /obj/structure/machinery/alarm/almayer{
 	dir = 1
 	},
-/turf/open/floor/almayer/green/north,
+/turf/open/floor/almayer/medgreen/north,
 /area/almayer/hallways/upper/fore_hallway)
 "sHI" = (
 /turf/open/floor/almayer/orangecorner/east,
@@ -55614,14 +55614,6 @@
 	},
 /turf/open/floor/almayer/research/containment/floor2/north,
 /area/almayer/medical/containment/cell)
-"tfM" = (
-/obj/structure/pipes/standard/simple/hidden/supply,
-/obj/structure/prop/vehicles/tank/twe{
-	layer = 5.1;
-	pixel_y = -6
-	},
-/turf/open/floor/almayer,
-/area/almayer/hallways/lower/vehiclehangar)
 "tfQ" = (
 /obj/structure/machinery/light/small,
 /turf/open/floor/plating/plating_catwalk,
@@ -56671,7 +56663,7 @@
 	pixel_x = 8;
 	pixel_y = -32
 	},
-/turf/open/floor/almayer/green,
+/turf/open/floor/almayer/medgreen/south,
 /area/almayer/hallways/upper/fore_hallway)
 "tyD" = (
 /turf/open/floor/almayer/research/containment/corner_var1/east,
@@ -57162,7 +57154,7 @@
 /turf/open/floor/almayer/plate,
 /area/almayer/living/bridgebunks)
 "tJm" = (
-/turf/open/floor/almayer/green,
+/turf/open/floor/almayer/medgreen/south,
 /area/almayer/hallways/upper/fore_hallway)
 "tJq" = (
 /obj/structure/machinery/light/small{
@@ -57257,7 +57249,7 @@
 /obj/effect/decal/warning_stripes{
 	icon_state = "SW-out"
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "tMU" = (
 /obj/structure/sign/safety/hvac_old{
@@ -57983,7 +57975,7 @@
 /obj/structure/machinery/light{
 	dir = 8
 	},
-/turf/open/floor/almayer/green/west,
+/turf/open/floor/almayer/medgreen/west,
 /area/almayer/hallways/upper/fore_hallway)
 "udx" = (
 /obj/structure/machinery/vending/snack,
@@ -62488,7 +62480,7 @@
 /obj/structure/sign/safety/restrictedarea{
 	pixel_y = -32
 	},
-/turf/open/floor/almayer/green,
+/turf/open/floor/almayer/medgreen/south,
 /area/almayer/hallways/upper/fore_hallway)
 "vQR" = (
 /obj/structure/disposalpipe/segment,
@@ -63058,7 +63050,7 @@
 /turf/open/floor/almayer/blue/east,
 /area/almayer/hallways/upper/midship_hallway)
 "vZJ" = (
-/turf/open/floor/almayer/green/southeast,
+/turf/open/floor/almayer/medgreen/southeast,
 /area/almayer/hallways/upper/fore_hallway)
 "wac" = (
 /obj/structure/window/reinforced{
@@ -67020,7 +67012,7 @@
 "xFx" = (
 /obj/structure/pipes/standard/simple/hidden/supply,
 /obj/structure/disposalpipe/segment,
-/turf/open/floor/almayer/green,
+/turf/open/floor/almayer/medgreen/south,
 /area/almayer/hallways/upper/fore_hallway)
 "xFP" = (
 /turf/open/floor/almayer/red/northeast,
@@ -68011,7 +68003,7 @@
 	dir = 1;
 	name = "ship-grade camera"
 	},
-/turf/open/floor/almayer/green,
+/turf/open/floor/almayer/medgreen/south,
 /area/almayer/hallways/upper/fore_hallway)
 "xZG" = (
 /obj/structure/machinery/light{
@@ -68277,7 +68269,7 @@
 	pixel_x = 15;
 	pixel_y = -32
 	},
-/turf/open/floor/almayer/green,
+/turf/open/floor/almayer/medgreen/south,
 /area/almayer/hallways/upper/fore_hallway)
 "yei" = (
 /obj/structure/pipes/standard/simple/hidden/supply{
@@ -82344,7 +82336,7 @@ ghF
 ghF
 jak
 jdC
-tfM
+jdC
 jdC
 jdC
 wiQ

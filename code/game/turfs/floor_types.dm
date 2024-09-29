@@ -386,6 +386,12 @@
 /turf/open/floor/almayer/green/southwest
 	dir = SOUTHWEST
 
+/turf/open/floor/almayer/medgreen
+	icon_state = "medgreen"
+
+/turf/open/floor/almayer/medgreen/southwest
+	dir = SOUTHWEST
+
 /turf/open/floor/almayer/orange
 	icon_state = "orange"
 
@@ -441,6 +447,15 @@
 	icon_state = "greencorner"
 
 /turf/open/floor/almayer/greencorner/north
+	dir = NORTH
+
+/turf/open/floor/almayer/medgreen/north
+	dir = NORTH
+
+/turf/open/floor/almayer/medgreencorner
+	icon_state = "medgreencorner"
+
+/turf/open/floor/almayer/medgreencorner/north
 	dir = NORTH
 
 /turf/open/floor/almayer/orange/north
@@ -506,6 +521,9 @@
 /turf/open/floor/almayer/green/south
 	dir = SOUTH
 
+/turf/open/floor/almayer/medgreen/south
+	dir = SOUTH
+
 /turf/open/floor/almayer/blue/east
 	dir = EAST
 
@@ -525,6 +543,12 @@
 	dir = EAST
 
 /turf/open/floor/almayer/greencorner/east
+	dir = EAST
+
+/turf/open/floor/almayer/medgreen/east
+	dir = EAST
+
+/turf/open/floor/almayer/medgreencorner/east
 	dir = EAST
 
 /turf/open/floor/almayer/orange/east
@@ -563,6 +587,9 @@
 /turf/open/floor/almayer/green/northeast
 	dir = NORTHEAST
 
+/turf/open/floor/almayer/medgreen/northeast
+	dir = NORTHEAST
+
 /turf/open/floor/almayer/orange/northeast
 	dir = NORTHEAST
 
@@ -588,6 +615,9 @@
 	dir = SOUTHEAST
 
 /turf/open/floor/almayer/green/southeast
+	dir = SOUTHEAST
+
+/turf/open/floor/almayer/medgreen/southeast
 	dir = SOUTHEAST
 
 /turf/open/floor/almayer/orange/southeast
@@ -620,7 +650,13 @@
 /turf/open/floor/almayer/green/west
 	dir = WEST
 
+/turf/open/floor/almayer/medgreen/west
+	dir = WEST
+
 /turf/open/floor/almayer/greencorner/west
+	dir = WEST
+
+/turf/open/floor/almayer/medgreencorner/west
 	dir = WEST
 
 /turf/open/floor/almayer/orange/west
@@ -659,6 +695,9 @@
 /turf/open/floor/almayer/green/northwest
 	dir = NORTHWEST
 
+/turf/open/floor/almayer/medgreen/northwest
+	dir = NORTHWEST
+
 /turf/open/floor/almayer/orange/northwest
 	dir = NORTHWEST
 
@@ -688,6 +727,9 @@
 
 /turf/open/floor/almayer/greenfull
 	icon_state = "greenfull"
+
+/turf/open/floor/almayer/medgreenfull
+	icon_state = "medgreenfull"
 
 /turf/open/floor/almayer/mono
 	icon_state = "mono"
