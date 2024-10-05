@@ -243,6 +243,9 @@
 			if(CEILING_IS_PROTECTED(target_area.ceiling, CEILING_PROTECTION_TIER_2) || protected_by_pylon(TURF_PROTECTION_MORTAR, target_turf))
 				to_chat(user, SPAN_WARNING("You cannot hit the target. It is probably underground."))
 				return
+			if(CEILING_IS_PROTECTED(target_area.ceiling, CEILING_PROTECTION_TIER_1) && SSticker.mode.name == "Faction Clash") //Hopefully reduces effectiveness of mortar in HvH, won't let the mortar hit anywhere indoors
+				to_chat(user, SPAN_WARNING("You cannot hit the target. It is probably indoors."))
+				return
 			if(SSticker.mode && MODE_HAS_TOGGLEABLE_FLAG(MODE_LZ_PROTECTION) && target_area.is_landing_zone)
 				to_chat(user, SPAN_WARNING("You cannot bomb the landing zone!"))
 				return
